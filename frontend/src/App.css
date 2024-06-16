@@ -1,0 +1,86 @@
+body {
+  background-color: #f0f8ff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="file"],
+input[type="text"] {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.document-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.document-item {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.document-item h3 {
+  margin: 10px 0;
+}
+
+.document-item a {
+  color: #4CAF50;
+  text-decoration: none;
+  margin: 10px 0;
+  display: block;
+}
+
+.document-item button {
+  background-color: #ff5722;
+}
+
+.document-item button:hover {
+  background-color: #e64a19;
+}
